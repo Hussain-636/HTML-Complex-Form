@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Complex Form</title>
+</head>
+<body>
+    <form action="">
+        <h2>Complex Form</h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Name</label>
+            <input type="text" name="fullname" id="fullname">
+            <label for="emailid">Email</label>
+            <input type="email" name="emailid" id="emailid">
+            <label for="phonenumber">Phone</label>
+            <input type="tel" name="phonenumber" id="phonenumber">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+            <label for="gender">Gender</label>
+            <input type="checkbox" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="checkbox" name="gender" id="female">
+            <label for="female">Female</label>
+            <br><br>
+            <label for="countries">Country</label>
+            <select name="countries" id="countries">
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <label for="state">State</label>
+            <input type="text" name="state" id="state">
+            <label for="zipcode">Zip</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label for="feedback">Comments</label>
+            <br>
+            <textarea name="feedback" id="feedback" rows="10" cols="50"></textarea>
+            <br>
+            <input type="checkbox" name="terms" id="terms">
+            <small>I agree to the terms & services</small>
+        </fieldset>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
